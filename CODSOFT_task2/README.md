@@ -22,7 +22,7 @@ Binary classification — detect **spam** vs **ham (legitimate)** SMS messages.
 | Logistic Regression | ~98% | ~0.96 |
 | Linear SVM 🏆 | ~98% | ~0.97 |
 
-## 📊 Graphs (7 total)
+## Graphs (7 total)
 - Spam vs Ham distribution
 - Message length & word count distribution
 - Model performance comparison
