@@ -1,73 +1,25 @@
 # CODSOFT
 
-This repository contains the work completed during the CODSOFT Machine Learning Internship. Each task involves building a machine learning model from scratch using real-world datasets, covering the complete pipeline from data preprocessing to model evaluation and visualization.
+This repository documents my work during the CODSOFT Machine Learning Internship, where I built end-to-end machine learning pipelines on real-world datasets. Each task covers data preprocessing, feature engineering, model training, evaluation, and visualization.
 
 ---
 
-## Task Overview
+## Tasks
 
-### Task 1 - Movie Genre Prediction
+1. **CodSoft_task1_Movie_Genre_Prediction**
+   Predicting movie genres from plot summaries using natural language processing. Applied TF-IDF vectorization with Logistic Regression, Linear SVM, and Multinomial Naive Bayes across 54,214 movies and 27 genres. Logistic Regression achieved the best accuracy of 60.55%.
 
-Built a multi-class text classification model to predict the genre of a movie based on its title and plot summary.
+2. **CodSoft_task2_SMS_Spam_Detection**
+   Identifying spam messages from legitimate ones using text classification. Applied TF-IDF vectorization with Naive Bayes, Logistic Regression, and Linear SVM on 5,572 SMS messages. Linear SVM achieved the best accuracy of 98.4% with an F1 score of 0.970.
 
-- Dataset: IMDB Genre Classification Dataset (54,214 movies, 27 genres)
-- Techniques: TF-IDF vectorization with unigrams and bigrams
-- Models: Logistic Regression, Linear SVM, Multinomial Naive Bayes
-- Best Result: Logistic Regression with 60.55% accuracy
-- Highlights: Western (F1=0.85) and Documentary (F1=0.77) were the strongest performing genres
-
-| Model | Accuracy | F1-Weighted |
-|---|---|---|
-| Logistic Regression | 60.55% | 0.575 |
-| Linear SVM | 59.72% | 0.570 |
-| Multinomial Naive Bayes | 55.11% | 0.483 |
+3. **CodSoft_task3_Customer_Churn_Prediction**
+   Predicting whether a bank customer will leave the service using demographic and behavioral features. Applied Logistic Regression, Random Forest, and Gradient Boosting on 10,000 customer records. Gradient Boosting achieved the best ROC-AUC of 0.930.
 
 ---
 
-### Task 2 - SMS Spam Detection
+## Setup
 
-Built a binary text classification model to detect spam messages from legitimate ones.
-
-- Dataset: SMS Spam Collection Dataset (5,572 messages)
-- Techniques: TF-IDF vectorization with unigrams and bigrams
-- Models: Multinomial Naive Bayes, Logistic Regression, Linear SVM
-- Best Result: Linear SVM with 98.4% accuracy and 0.970 F1 score
-- Highlights: Includes a live prediction feature to classify any custom SMS message
-
-| Model | Accuracy | F1 Score |
-|---|---|---|
-| Naive Bayes | 97.3% | 0.940 |
-| Logistic Regression | 98.1% | 0.960 |
-| Linear SVM | 98.4% | 0.970 |
-
----
-
-### Task 3 - Customer Churn Prediction
-
-Built a binary classification model to predict whether a bank customer will churn based on their demographics and account activity.
-
-- Dataset: Bank Customer Churn Dataset (10,000 customers, 14 features)
-- Techniques: Label encoding, standard scaling, stratified split
-- Models: Logistic Regression, Random Forest, Gradient Boosting
-- Best Result: Gradient Boosting with 87.1% accuracy and 0.930 ROC-AUC
-- Highlights: Feature importance analysis revealed Age and IsActiveMember as the top churn indicators
-
-| Model | Accuracy | F1 Score | ROC-AUC |
-|---|---|---|---|
-| Logistic Regression | 81.2% | 0.560 | 0.850 |
-| Random Forest | 86.5% | 0.720 | 0.920 |
-| Gradient Boosting | 87.1% | 0.740 | 0.930 |
-
----
-
-## Skills Demonstrated
-
-- Natural Language Processing (TF-IDF, text cleaning, stopword removal)
-- Supervised Machine Learning (classification algorithms)
-- Data Preprocessing (encoding, scaling, handling imbalanced data)
-- Model Evaluation (accuracy, precision, recall, F1, ROC-AUC, cross-validation)
-- Data Visualization (distribution plots, confusion matrices, ROC curves, feature importance)
-- End-to-end ML pipeline development using Python
+All tasks use Python 3.13. Install the required libraries using the command below and follow the instructions in each task's README to run the notebooks.
 
 ---
 
