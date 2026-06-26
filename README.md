@@ -1,25 +1,6 @@
-# CODSOFT Machine Learning Internship Tasks
+# CODSOFT
 
 This repository contains the work completed during the CODSOFT Machine Learning Internship. Each task involves building a machine learning model from scratch using real-world datasets, covering the complete pipeline from data preprocessing to model evaluation and visualization.
-
----
-
-## Repository Structure
-
-CODSOFT/
-├── CodSoft_task1_Movie_Genre_Prediction/
-│   ├── movie_genre_prediction.ipynb
-│   ├── outputs/
-│   └── README.md
-├── CodSoft_task2_SMS_Spam_Detection/
-│   ├── sms_spam_detection.ipynb
-│   ├── spam.csv
-│   └── README.md
-├── CodSoft_task3_Customer_Churn_Prediction/
-│   ├── customer_churn_prediction.ipynb
-│   ├── Churn_Modelling.csv
-│   └── README.md
-└── README.md
 
 ---
 
@@ -87,38 +68,6 @@ Built a binary classification model to predict whether a bank customer will chur
 - Model Evaluation (accuracy, precision, recall, F1, ROC-AUC, cross-validation)
 - Data Visualization (distribution plots, confusion matrices, ROC curves, feature importance)
 - End-to-end ML pipeline development using Python
-
----
-
-## Technologies Used
-
-| Tool | Purpose |
-|---|---|
-| Python 3.13 | Programming language |
-| scikit-learn | Machine learning models and evaluation |
-| pandas | Data manipulation and analysis |
-| numpy | Numerical computation |
-| matplotlib | Data visualization |
-| seaborn | Statistical visualizations |
-| Jupyter Notebook | Development environment |
-
----
-
-## How to Run Any Task
-
-1. Clone this repository
-
-git clone https://github.com/HarshillGutta-ops/CODSOFT.git
-
-2. Install dependencies
-
-pip install scikit-learn pandas numpy matplotlib seaborn
-
-3. Open the notebook for any task in VS Code with the Jupyter extension installed
-
-4. Update the file path in Cell 1 to point to your local dataset location
-
-5. Run all cells in order
 
 ---
 
